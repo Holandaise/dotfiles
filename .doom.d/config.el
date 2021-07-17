@@ -21,6 +21,9 @@
 ;; font string. You generally only need these two:
 ;; (setq doom-font (font-spec :family "monospace" :size 12 :weight 'semi-light)
 ;;       doom-variable-pitch-font (font-spec :family "sans" :size 13))
+;;
+(setq doom-font (font-spec :family "JetBrains Mono" :size 14)
+      doom-variable-pitch-font (font-spec :family "JetBrains Mono" :size 12))
 
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
@@ -53,4 +56,8 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
-(use-package! org-bullets)
+(use-package! org-bullets
+  :ensure t
+  :init
+  (add-hook 'org-mode-hook (lambda ()
+                             (org-bullets-mode 1))))
