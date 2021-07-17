@@ -1,4 +1,5 @@
 .emacs.d/.local/*
+.emacs.d/auto-save-list
 .emacs.d/modules/*
 .emacs.d/core/*
 .emacs.d/docs/*
