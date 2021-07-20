@@ -23,7 +23,15 @@
 ;;       doom-variable-pitch-font (font-spec :family "sans" :size 13))
 ;;
 (setq doom-font (font-spec :family "JetBrains Mono" :size 14)
-      doom-variable-pitch-font (font-spec :family "JetBrains Mono" :size 12))
+      doom-variable-pitch-font (font-spec :family "JetBrains Mono" :size 14)
+      doom-big-font (font-spec :family "JetBrains Mono" :size 24))
+
+(after! doom-themes
+  (setq doom-themes-enable-bold t
+        doom-themes-enable-italic t))
+(custom-set-faces!
+  '(font-lock-comment-face :slant italic)
+  '(font-lock-keyword-face :slant italic))
 
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
@@ -58,6 +66,4 @@
 
 (use-package! org-bullets
   :ensure t
-  :init
-  (add-hook 'org-mode-hook (lambda ()
-                             (org-bullets-mode 1))))
+  :hook (org-mode . org-bullets-mode))
