@@ -19,5 +19,5 @@
 
 (when (featurep! :completion company)
   (require 'company-go)
-  (unless (executable-find company-go-gocode-command)
-    (warn! "Couldn't find gocode. Code completion won't work")))
+  (unless (executable-find gopls)
+    (warn! "Couldn't find gopls. Code completion won't work")))

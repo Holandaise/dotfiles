@@ -22,8 +22,8 @@
 ;; (setq doom-font (font-spec :family "monospace" :size 12 :weight 'semi-light)
 ;;       doom-variable-pitch-font (font-spec :family "sans" :size 13))
 ;;
-(setq doom-font (font-spec :family "JetBrains Mono" :size 14)
-      doom-variable-pitch-font (font-spec :family "JetBrains Mono" :size 14)
+(setq doom-font (font-spec :family "JetBrains Mono" :size 15)
+      doom-variable-pitch-font (font-spec :family "JetBrains Mono" :size 15)
       doom-big-font (font-spec :family "JetBrains Mono" :size 24))
 
 (after! doom-themes
@@ -67,3 +67,8 @@
 (use-package! org-bullets
   :ensure t
   :hook (org-mode . org-bullets-mode))
+
+(use-package! org-roam
+  :ensure t
+  :custom
+  (org-roam-directory "~/org/RoamNotes"))

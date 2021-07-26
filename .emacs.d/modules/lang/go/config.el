@@ -70,7 +70,7 @@
   :unless (featurep! +lsp)
   :after go-mode
   :config
-  (set-company-backend! 'go-mode 'company-go)
+  (set-company-backend! 'go-mode 'gopls)
   (setq company-go-show-annotation t))
 
 (use-package! flycheck-golangci-lint
