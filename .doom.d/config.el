@@ -6,7 +6,7 @@
 
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets.
-(setq user-full-name "Adam Montgomery"
+(setq user-full-name "ADam Montgomery"
       user-mail-address "adamlmontgomery@gmail.com")
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom. Here
@@ -67,8 +67,3 @@
 (use-package! org-bullets
   :ensure t
   :hook (org-mode . org-bullets-mode))
-
-(use-package! org-roam
-  :ensure t
-  :custom
-  (org-roam-directory "~/org/RoamNotes"))
