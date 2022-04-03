@@ -8,6 +8,14 @@ use git/github to store the configuration files in a central repository.
 
 1. clone the repository into a `~/.dotfiles` directory
 2. Move to that directory and stow necessary files/directories
+3. If using qtile
+
+```sh
+/home/adam >: git clone https://github.com/holandaise/dotfiles .dotfiles
+/home/adam >: cd .dotfiles
+/home/adam >: stow qtile
+/home/adam >: stow vim
+```
 
 ## Issues
 
