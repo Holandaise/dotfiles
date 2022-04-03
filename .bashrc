@@ -142,5 +142,6 @@ ex ()
 export EDITOR=$(which vim)
 alias doom="/home/adam/.emacs.d/bin/doom"
 
-export GOPATH=$(go env GOPATH)
-export PATH=$PATH:$(go env GOPATH)/bin
+export GOBIN="/home/adam/go/bin"
+export GOPATH="$HOME/go"
+export PATH=$PATH:$GOBIN

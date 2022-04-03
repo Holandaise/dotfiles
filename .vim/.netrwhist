@@ -1,3 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/home/adam/Documents'
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/adam/go/src/github.com/holandaise/coke/fixtures'
+let g:netrw_dirhist_9='/home/adam/go/src/github.com/holandaise/coke'
+let g:netrw_dirhist_8='/home/adam/go/src/github.com/holandaise/coke/templates'
+let g:netrw_dirhist_7='/home/adam/go/src/github.com/holandaise/coke/templates/about'
+let g:netrw_dirhist_6='/home/adam/go/src/github.com/holandaise/coke/assets/images'
+let g:netrw_dirhist_5='/home/adam/go/src/github.com/holandaise/coke/assets'
+let g:netrw_dirhist_4='/home/adam/go/src/github.com/holandaise/coke'
+let g:netrw_dirhist_3='/home/adam/go/src/github.com/holandaise/coke/templates'
+let g:netrw_dirhist_2='/home/adam/go/src/github.com/holandaise/coke/templates/home'
+let g:netrw_dirhist_1='/home/adam/go/src/github.com/holandaise/coke/templates'

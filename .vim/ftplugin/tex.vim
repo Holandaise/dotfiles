@@ -1,7 +1,7 @@
 set spell
 
 inoremap <Leader># %
-inoremap section<TAB> \section{}<ESC>F{a
+inoremap section<TAB> \section{}<ESC>i
 cnoremap compile :!pdflatex<SPACE>%<CR><CR>
 cnoremap apa compile&&biber<SPACE>%:t:r<CR>&&compile
 
