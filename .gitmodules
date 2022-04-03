@@ -1,6 +1,6 @@
-[submodule ".vim/pack/default/start/vim-go"]
+[submodule "vim-go"]
 	path = vim/.vim/pack/default/start/vim-go
 	url = https://github.com/fatih/vim-go
-[submodule ".vim/pack/default/start/gruvbox"]
+[submodule "gruvbox"]
 	path = vim/.vim/pack/default/start/gruvbox
 	url = https://github.com/morhetz/gruvbox
